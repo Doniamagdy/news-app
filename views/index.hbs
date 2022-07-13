@@ -1,0 +1,44 @@
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/news.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+        <title>Home</title>
+        <link href="" >
+    </head>
+
+<body> 
+    <nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+        </ul>
+      </nav>
+
+     <div class="container">
+<div class="card">
+    <div class="card-body">
+       <h3>{{title}}</h3>
+        <p>{{description}}</p>
+        <img src={{image}} width="500px" height="300px">
+    </div>
+    
+</div>
+</div>
+</body>
+</html>
+
+<!-- {{#each title}} 
+        <h3>{{this}}</h3>
+        {{/each}}
